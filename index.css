@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section1 {
+  height: 100vh;
+}
+
+.first-section {
+  background-image: url(./media/city_scape.jpg);
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
+.navbar-txt:hover{
+  color: rgb(136, 134, 134);
+}
+
+.navigation {
+  position: absolute;
+  /* display: none; */
+  background-color: black;
+  padding: 0;
+  /* position: relative; */
+  z-index: 10000;
+}
+
+.navbar-txt,
+.burger-lines {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.burger {
+  border: none;
+  padding: 0;
+}
+
+.main > h3 {
+  font-size: 20px;
+  color: white;
+}
+
+.main > h1 {
+  color: white;
+  font-size: 4rem;
+  display: block;
+  width: 75%;
+}
+
+.nav-lists li a:hover{
+  color: rgb(136, 134, 134);
+}
+
+.nav-items {
+  flex-grow: 0;
+  flex-basis: 0;
+}
+
+.card1-first {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.section2-text h6 {
+  font-size: 15px;
+}
+
+.section2-text h3 {
+  font-size: 50px;
+}
+
+.section2-text p {
+  font-size: 20px;
+}
+
+
+
+.section2-1-accordion {
+  padding: 0;
+}
+
+.section2-1,
+.section2-0 {
+  background-color: #120d08;
+  color: white;
+}
+
+.section2-2 {
+  background-color: #f8f9fa;
+}
+
+.section3 {
+  background-color: #eeeeee;
+}
+
+.section3-text {
+  width: 50%;
+}
+
+.footer{
+    background-color: #262626;
+    color: white;
+}
+
+.footer h1{
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer p, .footer h6{
+    color:rgba(255, 255, 255, 0.5) ;
+}
+
+.socials{
+    border: solid 2px #808080;;
+}
+
+
+
+@media only screen and (min-width: 1440px) {
+  .card1-first {
+    width: 25%;
+  }
+  .cards {
+    position: absolute;
+    bottom: 2%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .card1-first {
+    width: 25%;
+  }
+  .cards {
+    position: absolute;
+    bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-items {
+    flex-grow: 1;
+    flex-basis: 100%;
+    background-color: black;
+  }
+}
+
+@media only screen and (min-width: 785px) and (max-width: 1023px) {
+  .cards {
+    position: absolute;
+    bottom: 2%;
+  }
+  .card1-first {
+    width: 13rem;
+    font-size: xx-small;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .cards {
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+
+  .card1-first {
+    margin: 0% 1%;
+  }
+}
+
+
+@media only screen and (max-width: 784px) {
+    .main>h3{
+        font-size: 100%;
+      }
+    .main h1{
+        font-size: 200%;
+      }
+      .carousel-contents p  {
+        font-size: 10px;
+    }
+    .carousel-contents h3{
+        font-size: 13px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 426px) {
+  .main>h3{
+    font-size: 90%;
+  }
+  .main h1{
+    font-size: 150%;
+  }
+  .section2-text h6 {
+    font-size: 15px;
+  }
+  
+  .section2-text h3 {
+    font-size:30px;
+  }
+  
+  .section2-text p {
+    font-size: 15px;
+  }
+  .building1{
+    width: 500px;
+  }
+
+  .section3-text{
+    width: 90%;
+  }
+}
